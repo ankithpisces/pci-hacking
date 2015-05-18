@@ -34,7 +34,8 @@ int main()
     return 0; 
 }
 
-/* To run this program
+
+/* OUTPUT 
 gfg@ubuntu:~/$ gcc multithread.c -lpthread
 gfg@ubuntu:~/$ ./a.out
 Thread ID: 1, Static: 1, Global: 1
