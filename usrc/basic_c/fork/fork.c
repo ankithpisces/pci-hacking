@@ -26,17 +26,13 @@ void main()
 
 void childprocess()
 {
-
-	printf("child");
-
+	printf("\n Inside child");
 }
 
 
 void parentprocess()
 {
-
-	printf("parent");
-
+	printf("\n Inside parent");
 }
 
 

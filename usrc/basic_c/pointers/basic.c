@@ -8,11 +8,11 @@
 
 int main(int argc, char *argv[])
 {
-	int a; /* a is an integer */
-	int *aPtr; /* aPtr is a pointer to an integer */
+	int a; 		/* a is an integer */
+	int *aPtr; 	/* aPtr is a pointer to an integer */
 
 	a = 7;
-	aPtr = &a; /* aPtr set to address of a */
+	aPtr = &a; 	/* aPtr set to address of a */
 
 	printf("\n\n");
 
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 	printf("The value of *aPtr is %d \n", *aPtr );
 
 	printf( "\n\nShowing that * and & are inverses of "
-			"each other.\n&*aPtr = %p"
+			"each other.\n &*aPtr = %p"
 			"\n*&aPtr = %p\n", &*aPtr, *&aPtr );
 	return 0;
 }

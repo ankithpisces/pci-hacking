@@ -12,7 +12,7 @@
 int main()
 {
 	int level;
-	int i ,j;
+	int i, j;
 	int temp;
 
 	printf("Enter the level of stars: \n");

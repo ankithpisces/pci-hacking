@@ -21,7 +21,7 @@
 	printf("The register address a : %p \n", a);
 
  * 5) Two storage class specifiers cannot be combined and cannot be used for a single variable
- * 	 for example static extern int a;
+ * 	 for example: static extern int a;
  */
 int main()
 {

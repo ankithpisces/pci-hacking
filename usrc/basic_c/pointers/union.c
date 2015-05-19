@@ -25,13 +25,4 @@ void main()
 	printf("The character c: %c\n", one.c);
 }
 
-/*
- * 1) char *p = (char*)&one.i; -> address of the one.i, type casted to character pointer, so the address of the starting byte of 'i' gets pointed to this
- * 2) The pointer gets incremented, as shown below
-	@0x7fff3109a310 - 34
-	@0x7fff3109a311 - 12
-	@0x7fff3109a312 - 0
-	@0x7fff3109a313 - 0
-	The character c: 4 @ 0x7fff3109a310
-*/
 
