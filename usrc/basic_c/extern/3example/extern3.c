@@ -10,7 +10,7 @@ int fun3(void)
 {
 	static int x = 10;
 	extern int a;
-	printf("Inside the extern-2 fun3() a:%d\n", a++);
+	printf("Inside the extern-3 fun3() a:%d\n", a++);
 	return 0;	
 }
 

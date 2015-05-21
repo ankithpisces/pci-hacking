@@ -1,5 +1,4 @@
 
-//static int a = 30;				//extern is not possible as the scope of static is limited to only this file
 
 /* CASE-1
  * - In case of extern, no memory will be allocated. However the extern varibles gets the reference from the global variable. 
@@ -15,6 +14,9 @@
  * CASE-3
  * - Declaring a int array as extern, which works and this is used in extern4.c 
  *
+ * CASE-4
+ * static int a = 30;		
+ * extern is not possible for global variable with static as the scope of static is limited to only this file
  */
 #include<stdio.h> 
 
@@ -35,7 +37,7 @@ void main()
 
 	{
 		extern int i;
-		printf("%d\n", i);
+		printf("Inside the local scope using global extern %d\n", i);
 	}
 
 	printf("Inside the extern-1 main() i:%d\n",i);

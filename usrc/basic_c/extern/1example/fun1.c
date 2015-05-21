@@ -1,3 +1,4 @@
+int printf(const char *, ...);
 
 extern int a[];
 
