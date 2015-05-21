@@ -1,0 +1,3 @@
+compile the thread programs as,
+
+gcc thread.c -lpthread
