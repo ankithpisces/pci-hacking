@@ -3,16 +3,19 @@
  * 2) const static int g; 
  * 	This can be used, however the variable 'g' cannot be changed 
  * 3) volatile register int l = 20;	// This works
- *
+ * 4) volatile type tells the compiler that the value of variable can be changed at any time without any action taken by the code nearby 
+	the declaration 
  * 4) Volatile means, always the data is accessed from the memory, sometimes the variable values may be accessed from the registers
  * 5) Thus when accessed, the value is obtained from the memory and after the change the value is written back to the memory
- * 6) The volatile qualifier declares a data object, so that can have its value changed in ways outside the control or detection of the compilation 
+ * 6) The volatile qualifier declares a data object, so that can have its value changed in ways outside the control or detection of 
+	the compilation 
  * 7) The value of the volatile may get changed without any action being taken by the code 
  * 8) If the volatile is used for struct or union, then all the members inside this are volatile. 
  *    If needed individually, declare volatile individually for the members of the struct. 
  * 9) Real time example for volatile: Used in RTC, as the value of the time keeps changing and this is read to a memory. 
  * 10) The values stored in register gets modified any time by any other process. Thus the volatile always accesses the memory locations 
- * 11) 'const volatile' and 'volatile const' both keywords cannot be used at a time.
+ * 11) 'const volatile' and 'volatile const' both keywords should not be used at a time.
+ * 12) If a variable is both const and volatile, the two modifiers can appear in either order. 
  */ 
 
 #include<stdio.h>

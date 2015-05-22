@@ -12,11 +12,11 @@ void main()
 //	const int  one = 0, two = X, three = X+1, four = 20, five=four+1;
 //	/* This line same as the below line to some extent, however this can be modified using pointers */
 
-	enum data {one, two = X, three, four = 20, five}; 			/* integer constants, value given should be a constant */
-//	enum temp { a = 1.2 };							/* This won't works, as the enum takes the value of integer constants */
+	enum data {one, two = X, three, four = 20, five}; 		/* integer constants, value given should be a constant */
+//	enum temp { a = 1.2 };						/* This won't works, as the enum takes the value of integer constants */
 
-//	int one;								/* One is already declared in enum, so cant be used */
-//	one = 30;								/* this one is not possible as it is a constant */
+//	int one;							/* One is already declared in enum, so cant be used */
+//	one = 30;							/* this one is not possible as it is a constant */
 //	X = X + 1;
 
 	enum player_status {PLAYING, PAUSE, STOPPED};

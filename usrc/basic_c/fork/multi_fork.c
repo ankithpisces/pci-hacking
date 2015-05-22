@@ -2,12 +2,12 @@
 #include<sys/types.h>
 int main()
 {
-pid_t pid;
+	pid_t pid;
 
-pid = fork();
-pid = fork();
-pid = fork();
+	pid = fork();
+	pid = fork();
+	pid = fork();
 
-printf("\n hello :%d\n ", pid);
+	printf("\n hello :%d\n ", pid);
 
 }
