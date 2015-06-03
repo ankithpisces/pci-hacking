@@ -48,7 +48,6 @@ int main()
         if(index==-1)
                 printf("Element not found\n");
         else
-
                 printf("Element is at index %d\n", index+1);
         return 0;
 }

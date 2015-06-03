@@ -1,7 +1,7 @@
 /*
  * 1) Here we take one number 
  * 2) src position and destination positions are taken as input for that number
- * 3) The src and dest poistion are swapped within the number
+ * 3) The src and dest position are swapped within the number
  * 4) example num: 1000 => 8
  * 5) 	  src_pos: 3
  * 6)	 dest_pos: 7
